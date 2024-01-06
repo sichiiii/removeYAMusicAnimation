@@ -1,0 +1,1 @@
+# Removes stupid Yandex.music mainpage animation

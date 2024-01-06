@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Remove YAMusicAnimation",
+  "description": "Remove YAMusicAnimation",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["https://music.yandex.by/*", "https://music.yandex.ru/*"],
+      "js": ["background.js"]
+    }
+  ]
+}
